@@ -37,7 +37,8 @@ pipeline {
  			    sh 'sudo apt-get install nano'
 			    
 				    
-				sh 'sudo -E add-apt-repository ppa:cncf-buildpacks/pack-cli'
+				sh 'sudo add-apt-repository ppa:cncf-buildpacks/pack-cli'
+			    
  				 sh 'sudo  apt-get update'
  				  sh 'sudo apt-get install pack-cli'
 			   
